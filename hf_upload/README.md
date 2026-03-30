@@ -14,7 +14,7 @@ base_model: ByteDance-Seed/BAGEL-7B-MoT
 
 # Omni-Weather
 
-Official model release for the paper [Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation](https://arxiv.org/abs/2512.21643), built on [BAGEL-7B-MoT](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT).
+Official model release for the paper [Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding](https://arxiv.org/abs/2512.21643), built on [BAGEL-7B-MoT](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT).
 
 ## Model Description
 
@@ -60,10 +60,11 @@ See the [GitHub repository](https://github.com/Zhouzone/OmniWeather) for trainin
 ## Citation
 
 ```bibtex
-@article{omniweather2025,
-  title   = {Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation},
-  journal = {arXiv preprint arXiv:2512.21643},
-  year    = {2025}
+@article{zhou2025omni,
+  title={Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding},
+  author={Zhou, Zhiwang and Pu, Yuandong and He, Xuming and Liu, Yidi and Chen, Yixin and Gong, Junchao and Zhuang, Xiang and Xu, Wanghan and Cao, Qinglong and Tang, Shixiang and others},
+  journal={arXiv preprint arXiv:2512.21643},
+  year={2025}
 }
 ```
 

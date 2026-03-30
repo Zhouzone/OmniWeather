@@ -2,6 +2,13 @@
 
 Omni-Weather is the official code release for the paper [Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation](https://arxiv.org/abs/2512.21643).
 
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2512.21643-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.21643)
+[![Model](https://img.shields.io/badge/Hugging%20Face-Omni--Weather-fcd022?logo=huggingface&logoColor=black)](https://huggingface.co/akiwatanabe/Omni-Weather)
+[![GitHub](https://img.shields.io/badge/GitHub-OmniWeather-000000?logo=github&logoColor=white)](https://github.com/Zhouzone/OmniWeather)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![GitHub](https://img.shields.io/github/stars/Zhouzone/OmniWeather?style=social)](https://github.com/Zhouzone/OmniWeather)
+
 [Paper](https://arxiv.org/abs/2512.21643) | [Hugging Face Model](https://huggingface.co/akiwatanabe/Omni-Weather) | [Hugging Face Paper](https://huggingface.co/papers/2512.21643)
 
 ## Overview
@@ -126,11 +133,11 @@ After downloading and organizing your data, update dataset paths in the relevant
 ## Citation
 
 ```bibtex
-@article{omniweather2025,
-  title   = {Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation},
-  author  = {Watanabe, Aki and collaborators},
-  journal = {arXiv preprint arXiv:2512.21643},
-  year    = {2025}
+@article{zhou2025omni,
+  title={Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding},
+  author={Zhou, Zhiwang and Pu, Yuandong and He, Xuming and Liu, Yidi and Chen, Yixin and Gong, Junchao and Zhuang, Xiang and Xu, Wanghan and Cao, Qinglong and Tang, Shixiang and others},
+  journal={arXiv preprint arXiv:2512.21643},
+  year={2025}
 }
 ```
 

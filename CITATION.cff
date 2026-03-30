@@ -6,13 +6,34 @@ license: Apache-2.0
 repository-code: "https://github.com/Zhouzone/OmniWeather"
 url: "https://github.com/Zhouzone/OmniWeather"
 authors:
-  - family-names: Watanabe
-    given-names: Aki
+  - family-names: Zhou
+    given-names: Zhiwang
 preferred-citation:
   type: article
-  title: "Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation"
+  title: "Omni-Weather: Unified Multimodal Foundation Model for Weather Generation and Understanding"
   journal: "arXiv"
   year: 2025
+  authors:
+    - family-names: Zhou
+      given-names: Zhiwang
+    - family-names: Pu
+      given-names: Yuandong
+    - family-names: He
+      given-names: Xuming
+    - family-names: Liu
+      given-names: Yidi
+    - family-names: Chen
+      given-names: Yixin
+    - family-names: Gong
+      given-names: Junchao
+    - family-names: Zhuang
+      given-names: Xiang
+    - family-names: Xu
+      given-names: Wanghan
+    - family-names: Cao
+      given-names: Qinglong
+    - family-names: Tang
+      given-names: Shixiang
   identifiers:
     - type: arxiv
       value: "2512.21643"
