@@ -1,0 +1,13 @@
+# Omni-Weather: Radar Forecasting with EarthFormer cascade
+
+radar_forcastor_single:
+  dataset_names:
+  - radar_forcastor_single
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 256
+    min_image_size: 256
+  is_mandatory: true
+  num_used_data:
+  - -1
+  weight: 1.0

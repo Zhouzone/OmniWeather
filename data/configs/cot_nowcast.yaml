@@ -1,0 +1,13 @@
+# Omni-Weather: Chain-of-Thought Nowcasting config
+
+cot_cumulative_frame:
+  dataset_names:
+  - cot_cumulative_frame
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 256
+    min_image_size: 256
+  is_mandatory: true
+  num_used_data:
+  - -1
+  weight: 1.0

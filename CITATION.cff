@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Omni-Weather
+message: "If you use this software, please cite the Omni-Weather paper."
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/Zhouzone/OmniWeather"
+url: "https://github.com/Zhouzone/OmniWeather"
+authors:
+  - family-names: Watanabe
+    given-names: Aki
+preferred-citation:
+  type: article
+  title: "Omni-Weather: A Unified Multimodal Model for Weather Radar Understanding and Generation"
+  journal: "arXiv"
+  year: 2025
+  identifiers:
+    - type: arxiv
+      value: "2512.21643"

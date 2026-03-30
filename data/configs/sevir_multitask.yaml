@@ -1,0 +1,29 @@
+# Omni-Weather: SEVIR Multi-Task config
+# Includes: sat2rad, VIL/IR downscaling, interpolation, IR translation,
+# IR-to-VIS, radar prediction, IR prediction
+
+sevir_all:
+  dataset_names:
+  - sat2rad
+  - vil_down_scaling
+  - ir_down_scaling
+  - interpolation
+  - ir_translation
+  - ir_to_vis
+  - rad_prediction
+  - ir_prediction
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 32
+  is_mandatory: true
+  num_used_data:
+  - -1   # sat2rad
+  - -1   # vil_down_scaling
+  - -1   # ir_down_scaling
+  - -1   # interpolation
+  - -1   # ir_translation
+  - -1   # ir_to_vis
+  - -1   # rad_prediction
+  - -1   # ir_prediction
+  weight: 1.0

@@ -1,0 +1,57 @@
+# Checkpoints & model weights
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Experiment outputs
+experiments/
+results/
+wandb/
+log/
+*.log
+upload.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+env.sh
+
+# Data (users should manage their own data)
+*.npy
+*.parquet
+*.arrow
+*.csv
+
+# Local evaluation outputs
+score_outputs/
+
+# Hugging Face upload artifacts
+hf_upload/*.safetensors
+
+# Offload cache
+offload_*/
